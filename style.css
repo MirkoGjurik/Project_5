@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    background-color: rgb(30, 30, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left {
+    float: left;
+    padding-left: 25px;
+}
+.right {
+    float: right;
+}
+.right li {
+    display: inline;
+    padding: 15px;
+}
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+.redbox {
+    background-color: rgb(228, 87, 87);
+    padding: 7px 20px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+}
+#intro {
+    float: left;
+    position: relative;
+    left: 30%;
+    color: white;
+    margin: 0 auto;
+    padding: 250px 0;
+    text-align: right;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+#intro h5 {
+    line-height: 0;
+}
+#firstPage {
+    clear: both;
+    background: url(Images/picture1.jpg) no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 340px;
+}
+.text {
+    float: left;
+    background-color: rgba(30, 30, 47, 0.9);
+    width: 33.3%;
+    height: 300px;
+    color: white;
+    border-top: 5px solid rgb(255, 71, 95);
+    box-sizing: border-box;
+    padding: 60px 40px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+h5 {
+    font-size: 19px;
+    font-weight: 100;
+}
+#secondPage {
+    margin-top: 0px;
+    background: url(Images/picture2.jpeg) no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+}
+#right {
+    float: right;
+    border-left: 5px solid rgb(91, 91, 238);
+}
+#right, #left {
+    color: white;
+    width: 36%;
+    height: 100%;
+    background-color: rgba(30, 30, 47, 0.9);
+}
+.opis h2 {
+    padding: 70px 70px 0 50px; 
+    margin-bottom: 10px;
+}
+.opis h5 {
+    padding: 0 70px 0 50px;
+    margin-top: 10px; 
+}
+.opis p {
+    padding: 0 100px 0 50px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.8;
+    text-align: justify;
+}
+.learn {
+    background-color: rgba(30, 30, 47, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 12px 30px;
+    margin: 15px 50px;
+    font-size: 15px;
+}
+.learn:hover {
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+#thirdPage {
+    margin-top: 0px;
+    background: url(Images/picture3.jpg) no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+}
+#left {
+    float: left;
+    border-right: 5px solid rgb(0, 204, 153);
+}
+#fourthPage {
+    margin-bottom: 40px;
+}
+.pocetok {
+    text-align: center;
+    color: white;
+}
+.pocetok h1 {
+    border-bottom: 3px solid rgb(255, 71, 95);
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.prvRed, .vtorRed {
+    float: left;
+    width: 33.3%;
+    height: 250px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 50px;
+}
+.vtorRed {
+    margin-bottom: 30px;
+}
+.prvRed i, .vtorRed i {
+    font-size: 30px;
+    padding: 25px;
+    background-color: rgb(48, 48, 63);
+    border-radius: 100px;
+}
+.magna {
+margin: 0 auto;
+display: block;
+}
+.mail {
+    background-color: rgb(255, 71, 95);
+    height: 345px;
+}
+.mail h2 {
+    padding-top: 100px;
+}
+.mail h5 {
+    margin-bottom: 20px;
+}
+.start {
+    background-color: white;
+    color: rgb(255, 71, 95);
+    margin: 15px;
+}
+input {
+    background-color: rgb(255, 71, 95);
+    color: white;
+    border: 1px solid white;
+    padding: 13px 170px 13px 15px;
+    border-radius: 3px;
+}
+input::placeholder {
+    color: white;
+}
+#social {
+    background-color: rgb(39, 39, 53);
+    color: white;
+    text-align: center;
+    padding: 80px;
+    font-size: 12px;
+}
+#social a {
+    color: white;
+    font-size: 25px;
+    margin: 7px;
+}
+#social p {
+    margin-top: 25px;
+}
+.dotted {
+    text-decoration: underline dotted;
+}
